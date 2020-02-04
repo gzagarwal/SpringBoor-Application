@@ -1,0 +1,14 @@
+<beanio xmlns="http://www.beanio.org/2012/03">
+    <stream name="TOPOFDAY" format="csv">
+    
+        <record name="TOP" class="map">
+            <field name="HEADER" rid="true" literal="D" trim="true" />     
+            <field name="BEST_BID_PRICE"  trim="true" /> 
+            <field name="BEST_BID_SIZE"  trim="true" /> 
+            <field name="BEST_OFFER_PRICE"  trim="true" />     
+            <field name="BEST_OFFER_SIZE"  trim="true" /> 
+            <field name="SYMBOL"  trim="true" /> 
+          
+        </record>
+    </stream>
+</beanio>
